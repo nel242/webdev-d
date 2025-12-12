@@ -1,0 +1,107 @@
+/* CSS styles go here */html {
+    font-size: 62.5%; /* 1rem = 10px */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calculator-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+button {
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 2.5rem;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.operator {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.operator:hover {
+    background-color: #e67e22;
+}
+
+.equal-sign {
+    background-color: #27ae60;
+    color: #fff;
+    /* Spans the full width of the last row */
+    grid-column: 4 / 5; 
+    grid-row: 2 / 5;
+    height: 100%; /* Make it tall to span three rows */
+}
+
+.equal-sign:hover {
+    background-color: #2ecc71;
+}
+
+.all-clear {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.all-clear:hover {
+    background-color: #e74c3c;
+}
+
+/* Ensure 'AC' and '.' take up the last two spots next to '0' */
+.decimal {
+    grid-column: 2 / 3;
+}
+
+.all-clear {
+    grid-column: 3 / 4;
+}

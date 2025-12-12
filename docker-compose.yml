@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  webdev:
+    build: .
+    container_name: webdev-dev
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"   # For dev servers (React, Node, etc.)
+      - "5173:5173"   # For Vite, if you use it later
+    stdin_open: true
+    tty: true
+
