@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 
 def create_project_structure():

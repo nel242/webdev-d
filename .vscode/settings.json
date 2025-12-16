@@ -36,7 +36,7 @@
 
   // === Live Server ===
   "liveServer.settings.root": "src",
-  "liveServer.settings.port": 5500,
+  "liveServer.settings.port": 5501,
 
   // === Files & explorer ===
   "files.exclude": {
@@ -51,6 +51,5 @@
 
   // === UI niceties ===
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "One Dark Pro"
+  "workbench.colorTheme": "One Dark Pro Night Flat"
 }
-

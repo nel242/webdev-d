@@ -1,0 +1,19 @@
+127.0.0.1 - - [13/Dec/2025 12:17:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [13/Dec/2025 12:24:40] "GET /lesson1/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Dec/2025 12:24:43] "GET /lesson1/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Dec/2025 12:32:10] "GET /lesson1/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:33:32] "GET /lesson1/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:34:23] "GET /lesson1/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:35:01] "GET /lesson1/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:45:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:45:07] "GET /arngrendotnet/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:45:07] "GET /arngrendotnet/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:45:07] code 404, message File not found
+127.0.0.1 - - [13/Dec/2025 12:45:07] "GET /arngrendotnet/images/placeholder_gadget1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Dec/2025 12:45:07] code 404, message File not found
+127.0.0.1 - - [13/Dec/2025 12:45:07] "GET /arngrendotnet/images/placeholder_computer2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Dec/2025 12:45:07] "GET /arngrendotnet/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 12:45:15] code 404, message File not found
+127.0.0.1 - - [13/Dec/2025 12:45:15] "GET /product-detail-1 HTTP/1.1" 404 -
+127.0.0.1 - - [13/Dec/2025 12:45:20] code 404, message File not found
+127.0.0.1 - - [13/Dec/2025 12:45:20] "GET /product-detail-2 HTTP/1.1" 404 -
