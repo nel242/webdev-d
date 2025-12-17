@@ -1,0 +1,33 @@
+body    {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 32px;
+}
+
+h1  {
+    margin-bottom: 12px;
+}
+
+h3  {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+p   {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+ol  {
+    padding-left: 24px;
+}
+
+a   {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
