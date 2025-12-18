@@ -1,0 +1,21 @@
+h1  {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+p   {
+    border: 2px solid red;
+    width: 300px;
+}
+
+a   {
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 10px 16px;
+    margin-top: 20px;
+}
+
+h3  {
+    visibility: hidden;
+}
