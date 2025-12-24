@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Portfolio Dashboard</title>
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #007bff;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            font-weight: 300;
+            margin: 0;
+        }
+        .meta {
+            margin-top: 10px;
+            color: #6c7a89;
+            font-size: 0.95em;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .project-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+            transition: transform 0.2s, box-shadow 0.2s;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+        }
+        .thumb {
+            width: 100%;
+            height: 165px;
+            background: linear-gradient(135deg, rgba(0,123,255,0.20), rgba(44,62,80,0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2c3e50;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+        }
+        .thumb img {
+            width: 100%;
+            height: 165px;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            padding: 18px 20px 20px 20px;
+        }
+        h2 {
+            margin: 0 0 8px 0;
+            color: #007bff;
+            font-size: 1.35em;
+        }
+        p {
+            margin: 0 0 10px 0;
+            color: #5f6f7a;
+            font-size: 0.95em;
+            line-height: 1.35;
+        }
+        .updated {
+            font-size: 0.85em;
+            color: #8a97a3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.85em;
+            color: #95a5a6;
+        }
+        code.small {
+            background: #eef2f6;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Web Projects Portfolio</h1>
+            <div class="meta">Last generated: <strong>Dec 20, 2025 12:44 PM</strong></div>
+            <div class="meta">Tip: Add <code class="small">thumbnail.png</code> and/or <code class="small">description.txt</code> inside a project folder.</div>
+        </header>
+
+        <section class="project-grid">
+
+            <a href="then-now-vite/index.html" class="project-card">
+                <div class="thumb">Then Now Vite</div>
+                <div class="card-content">
+                    <h2>Then Now Vite</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 20, 2025 08:49 AM</div>
+                </div>
+            </a>
+
+            <a href="07-2025-tooling/index.html" class="project-card">
+                <div class="thumb">07 2025 Tooling</div>
+                <div class="card-content">
+                    <h2>07 2025 Tooling</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 20, 2025 07:49 AM</div>
+                </div>
+            </a>
+
+            <a href="06-2018-js/index.html" class="project-card">
+                <div class="thumb">06 2018 Js</div>
+                <div class="card-content">
+                    <h2>06 2018 Js</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 19, 2025 05:45 PM</div>
+                </div>
+            </a>
+
+            <a href="05-2015-responsive/index.html" class="project-card">
+                <div class="thumb">05 2015 Responsive</div>
+                <div class="card-content">
+                    <h2>05 2015 Responsive</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 19, 2025 04:40 PM</div>
+                </div>
+            </a>
+
+            <a href="04-2010-layout/index.html" class="project-card">
+                <div class="thumb">04 2010 Layout</div>
+                <div class="card-content">
+                    <h2>04 2010 Layout</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 19, 2025 03:01 PM</div>
+                </div>
+            </a>
+
+            <a href="03-2005-css-basics/index.html" class="project-card">
+                <div class="thumb">03 2005 Css Basics</div>
+                <div class="card-content">
+                    <h2>03 2005 Css Basics</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 19, 2025 02:12 PM</div>
+                </div>
+            </a>
+
+            <a href="02-2001-semantic/index.html" class="project-card">
+                <div class="thumb">02 2001 Semantic</div>
+                <div class="card-content">
+                    <h2>02 2001 Semantic</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 19, 2025 02:04 PM</div>
+                </div>
+            </a>
+
+            <a href="01-1996-html/index.html" class="project-card">
+                <div class="thumb">01 1996 Html</div>
+                <div class="card-content">
+                    <h2>01 1996 Html</h2>
+                    <p>Click to open this project.</p>
+                    <div class="updated">Updated: Dec 18, 2025 07:01 PM</div>
+                </div>
+            </a>
+
+        </section>
+
+        <footer>
+            <p>Dashboard generated by a Python script.</p>
+        </footer>
+    </div>
+</body>
+</html>
