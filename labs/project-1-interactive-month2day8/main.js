@@ -1,11 +1,7 @@
-// ==================
 // State
-// ==================
 let visible = true;
 
-// ==================
-// Application entry point
-// ==================
+//App entry point
 function init() {
     // DOM references (inside init so they're checked + use together)
     const btn = document.querySelector("#toggle");
@@ -17,30 +13,24 @@ function init() {
         console.warn("Required elements not found. Script stopped.");
         return;
     } 
-    // =========================
-    // Render make UI match state 
-    // =========================
+    
+    // UI renderer (define first)
     function render()   {
         msg.hidden = !visible;
         btn.textContent = visible ? "Hide message" : "Show message";
         status.textContent = visible ? "Status: Visible" : "Status: Hidden";
     }
 
-    // ========================
-    // Logic: change state
-    // ========================
+    // logic
     function toggleVisibility() {
         visible = !visible;
         render();
     }
-    // =======================
+
     // Initialization. call it here, after definition and after guard
-    // =======================
     render();
 
-    // ==========================
-    // Events 
-    // ==========================
+    // Event wiring
     btn.addEventListener("click", toggleVisibility);
 }
 
