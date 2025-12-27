@@ -70,7 +70,7 @@ def create_portfolio_dashboard():
     and generates a portfolio-style index.html with linked project cards.
     """
     root = Path(".").resolve()
-    output_file = root / "index.html"
+    output_file = root / "dashboard.html"
 
     # Gather projects: directories with index.html
     projects = []
