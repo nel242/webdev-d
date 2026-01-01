@@ -1,16 +1,18 @@
-127.0.0.1 - - [25/Dec/2025 17:30:10] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [25/Dec/2025 17:30:10] code 404, message File not found
-127.0.0.1 - - [25/Dec/2025 17:30:10] "GET /favicon.ico HTTP/1.1" 404 -
-127.0.0.1 - - [25/Dec/2025 17:30:25] "GET /project-1-interactive-month2day9/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [25/Dec/2025 17:30:26] "GET /project-1-interactive-month2day9/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [25/Dec/2025 17:42:08] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [25/Dec/2025 17:42:10] "GET /project-1-interactive/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [25/Dec/2025 17:42:10] "GET /project-1-interactive/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [25/Dec/2025 17:45:06] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [25/Dec/2025 17:45:07] "GET /project-1-interactive/index.html HTTP/1.1" 304 -
-127.0.0.1 - - [25/Dec/2025 17:45:07] "GET /project-1-interactive/main.js HTTP/1.1" 304 -
-127.0.0.1 - - [25/Dec/2025 17:45:30] code 404, message File not found
-127.0.0.1 - - [25/Dec/2025 17:45:30] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
-Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
-
-Keyboard interrupt received, exiting.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.10/http/server.py", line 1307, in <module>
+    test(
+  File "/usr/lib/python3.10/http/server.py", line 1258, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 1301, in server_bind
+    return super().server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
